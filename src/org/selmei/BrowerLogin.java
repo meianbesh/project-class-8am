@@ -14,6 +14,7 @@ public class BrowerLogin {
 	driver.get("https://www.google.com/");
 	 WebElement findElement = driver.findElement(By.xpath("//input[@type='text']"));
 	findElement.sendKeys("instragram");
+	driver.close();
 	
 	
 	
